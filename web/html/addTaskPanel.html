@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddTask</title>
+    <link rel="stylesheet" href="/css/addTaskPanelStyle.css">
+</head>
+<body>
+<div class="panelBody">
+    <div class="main">
+        <h2>Addition task</h2>
+            <label>Task Name :</label>
+            <input type="text" name="taskName" id="taskName">
+            <label>Task Date :</label>
+            <input type="date" name="taskDate" id="taskDate">
+            <label>Task Content :</label>
+            <input type="text" name="taskContent" id="taskContent">
+            <input type="button" value="Add" onclick="addTask()">&nbsp;
+            <input type="button" value="Hide" onclick="hideAddingForm()">
+        <span style="display: none" id="errorArea">
+                        <hr>
+                        <b class="error">Error : </b>
+                            <p id="errorMessage"></p>
+                        <br/>
+        </span>
+    </div>
+</div>
+</body>
+</html>

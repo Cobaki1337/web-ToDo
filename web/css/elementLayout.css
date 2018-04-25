@@ -1,0 +1,28 @@
+.mainPanel{
+    float: left;
+}
+
+.taskPanel{
+    float: left;
+}
+
+.showTasks{
+    float: left;
+    margin-left: 20px;
+}
+
+.additionTask{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.additionFile{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/*.cancellationSelecting{*/
+/*float: left;*/
+/*}*/

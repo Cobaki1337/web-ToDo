@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddFile</title>
+    <link rel="stylesheet" href="/css/addTaskPanelStyle.css">
+</head>
+<body>
+<div class="panelBody">
+    <div class="main">
+        <h2>Addition file</h2>
+            <div class="withoutFile" id="withoutFile">
+                <label>File :</label>
+                <input id="chooseFile" type="file">
+
+                <div id="upload-progress">
+                    Progress <span id="progressPercents">0</span>%
+                </div>
+                <input type="button" class="uploadFile" id="uploadFile" value="Upload File">
+            </div>
+
+            <div class="withFile" id="withFile">
+                <label>File name :</label>
+                <div class="fileName" id="fileName">
+
+                </div>
+                <input type="button" value="Download" class="downloadFile" id="downloadFile">&nbsp;
+                <input type="button" value="Delete" class="removeFile" id="removeFile">
+            </div>
+        &nbsp;<input type="button" value="Hide" onclick="hideFileModelForm()">
+    </div>
+</div>
+</body>
+</html>
